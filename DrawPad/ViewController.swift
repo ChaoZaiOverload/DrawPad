@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     var currentPath: UIBezierPath? = nil
     var currentLayer: CAShapeLayer? = nil
     
+    var removedLines: [CAShapeLayer] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,17 +27,22 @@ class ViewController: UIViewController {
     }
     
     @IBAction func redo() {
-        
+        guard let removed = removedLines.last else { return }
+        view.layer.addSublayer(removed)
+        removedLines.removeLast()
     }
     
     @IBAction func undo() {
-        
+        guard let lastLayer = view.layer.sublayers?.last as? CAShapeLayer else { return }
+        lastLayer.removeFromSuperlayer()
+        removedLines.append(lastLayer)
     }
     
     @IBAction func clear() {
         view.layer.sublayers?.forEach {
             $0.removeFromSuperlayer()
         }
+        removedLines.removeAll()
     }
 
 
