@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF18FB7B210BB3B30056249B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18FB7A210BB3B30056249B /* AppDelegate.swift */; };
+		EF18FB7D210BB3B30056249B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18FB7C210BB3B30056249B /* ViewController.swift */; };
+		EF18FB80210BB3B30056249B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF18FB7E210BB3B30056249B /* Main.storyboard */; };
+		EF18FB82210BB3B40056249B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF18FB81210BB3B40056249B /* Assets.xcassets */; };
+		EF18FB85210BB3B40056249B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF18FB83210BB3B40056249B /* LaunchScreen.storyboard */; };
+		EF18FB90210BB3B40056249B /* DrawPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18FB8F210BB3B40056249B /* DrawPadTests.swift */; };
+		EF18FB9B210BB3B40056249B /* DrawPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18FB9A210BB3B40056249B /* DrawPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF18FB8C210BB3B40056249B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF18FB6F210BB3B30056249B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF18FB76210BB3B30056249B;
+			remoteInfo = DrawPad;
+		};
+		EF18FB97210BB3B40056249B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF18FB6F210BB3B30056249B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF18FB76210BB3B30056249B;
+			remoteInfo = DrawPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF18FB77210BB3B30056249B /* DrawPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF18FB7A210BB3B30056249B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF18FB7C210BB3B30056249B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF18FB7F210BB3B30056249B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF18FB81210BB3B40056249B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF18FB84210BB3B40056249B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF18FB86210BB3B40056249B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF18FB8B210BB3B40056249B /* DrawPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF18FB8F210BB3B40056249B /* DrawPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPadTests.swift; sourceTree = "<group>"; };
+		EF18FB91210BB3B40056249B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF18FB96210BB3B40056249B /* DrawPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF18FB9A210BB3B40056249B /* DrawPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPadUITests.swift; sourceTree = "<group>"; };
+		EF18FB9C210BB3B40056249B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF18FB74210BB3B30056249B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18FB88210BB3B40056249B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18FB93210BB3B40056249B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF18FB6E210BB3B30056249B = {
+			isa = PBXGroup;
+			children = (
+				EF18FB79210BB3B30056249B /* DrawPad */,
+				EF18FB8E210BB3B40056249B /* DrawPadTests */,
+				EF18FB99210BB3B40056249B /* DrawPadUITests */,
+				EF18FB78210BB3B30056249B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF18FB78210BB3B30056249B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF18FB77210BB3B30056249B /* DrawPad.app */,
+				EF18FB8B210BB3B40056249B /* DrawPadTests.xctest */,
+				EF18FB96210BB3B40056249B /* DrawPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF18FB79210BB3B30056249B /* DrawPad */ = {
+			isa = PBXGroup;
+			children = (
+				EF18FB7A210BB3B30056249B /* AppDelegate.swift */,
+				EF18FB7C210BB3B30056249B /* ViewController.swift */,
+				EF18FB7E210BB3B30056249B /* Main.storyboard */,
+				EF18FB81210BB3B40056249B /* Assets.xcassets */,
+				EF18FB83210BB3B40056249B /* LaunchScreen.storyboard */,
+				EF18FB86210BB3B40056249B /* Info.plist */,
+			);
+			path = DrawPad;
+			sourceTree = "<group>";
+		};
+		EF18FB8E210BB3B40056249B /* DrawPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF18FB8F210BB3B40056249B /* DrawPadTests.swift */,
+				EF18FB91210BB3B40056249B /* Info.plist */,
+			);
+			path = DrawPadTests;
+			sourceTree = "<group>";
+		};
+		EF18FB99210BB3B40056249B /* DrawPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF18FB9A210BB3B40056249B /* DrawPadUITests.swift */,
+				EF18FB9C210BB3B40056249B /* Info.plist */,
+			);
+			path = DrawPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF18FB76210BB3B30056249B /* DrawPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF18FB9F210BB3B40056249B /* Build configuration list for PBXNativeTarget "DrawPad" */;
+			buildPhases = (
+				EF18FB73210BB3B30056249B /* Sources */,
+				EF18FB74210BB3B30056249B /* Frameworks */,
+				EF18FB75210BB3B30056249B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawPad;
+			productName = DrawPad;
+			productReference = EF18FB77210BB3B30056249B /* DrawPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF18FB8A210BB3B40056249B /* DrawPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF18FBA2210BB3B40056249B /* Build configuration list for PBXNativeTarget "DrawPadTests" */;
+			buildPhases = (
+				EF18FB87210BB3B40056249B /* Sources */,
+				EF18FB88210BB3B40056249B /* Frameworks */,
+				EF18FB89210BB3B40056249B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF18FB8D210BB3B40056249B /* PBXTargetDependency */,
+			);
+			name = DrawPadTests;
+			productName = DrawPadTests;
+			productReference = EF18FB8B210BB3B40056249B /* DrawPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF18FB95210BB3B40056249B /* DrawPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF18FBA5210BB3B40056249B /* Build configuration list for PBXNativeTarget "DrawPadUITests" */;
+			buildPhases = (
+				EF18FB92210BB3B40056249B /* Sources */,
+				EF18FB93210BB3B40056249B /* Frameworks */,
+				EF18FB94210BB3B40056249B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF18FB98210BB3B40056249B /* PBXTargetDependency */,
+			);
+			name = DrawPadUITests;
+			productName = DrawPadUITests;
+			productReference = EF18FB96210BB3B40056249B /* DrawPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF18FB6F210BB3B30056249B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Yu, Huiting";
+				TargetAttributes = {
+					EF18FB76210BB3B30056249B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EF18FB8A210BB3B40056249B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF18FB76210BB3B30056249B;
+					};
+					EF18FB95210BB3B40056249B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF18FB76210BB3B30056249B;
+					};
+				};
+			};
+			buildConfigurationList = EF18FB72210BB3B30056249B /* Build configuration list for PBXProject "DrawPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF18FB6E210BB3B30056249B;
+			productRefGroup = EF18FB78210BB3B30056249B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF18FB76210BB3B30056249B /* DrawPad */,
+				EF18FB8A210BB3B40056249B /* DrawPadTests */,
+				EF18FB95210BB3B40056249B /* DrawPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF18FB75210BB3B30056249B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18FB85210BB3B40056249B /* LaunchScreen.storyboard in Resources */,
+				EF18FB82210BB3B40056249B /* Assets.xcassets in Resources */,
+				EF18FB80210BB3B30056249B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18FB89210BB3B40056249B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18FB94210BB3B40056249B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF18FB73210BB3B30056249B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18FB7D210BB3B30056249B /* ViewController.swift in Sources */,
+				EF18FB7B210BB3B30056249B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18FB87210BB3B40056249B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18FB90210BB3B40056249B /* DrawPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18FB92210BB3B40056249B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18FB9B210BB3B40056249B /* DrawPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF18FB8D210BB3B40056249B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF18FB76210BB3B30056249B /* DrawPad */;
+			targetProxy = EF18FB8C210BB3B40056249B /* PBXContainerItemProxy */;
+		};
+		EF18FB98210BB3B40056249B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF18FB76210BB3B30056249B /* DrawPad */;
+			targetProxy = EF18FB97210BB3B40056249B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF18FB7E210BB3B30056249B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF18FB7F210BB3B30056249B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF18FB83210BB3B40056249B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF18FB84210BB3B40056249B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF18FB9D210BB3B40056249B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF18FB9E210BB3B40056249B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF18FBA0210BB3B40056249B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyu.DrawPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF18FBA1210BB3B40056249B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyu.DrawPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF18FBA3210BB3B40056249B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyu.DrawPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPad.app/DrawPad";
+			};
+			name = Debug;
+		};
+		EF18FBA4210BB3B40056249B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyu.DrawPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPad.app/DrawPad";
+			};
+			name = Release;
+		};
+		EF18FBA6210BB3B40056249B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyu.DrawPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrawPad;
+			};
+			name = Debug;
+		};
+		EF18FBA7210BB3B40056249B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyu.DrawPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrawPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF18FB72210BB3B30056249B /* Build configuration list for PBXProject "DrawPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF18FB9D210BB3B40056249B /* Debug */,
+				EF18FB9E210BB3B40056249B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF18FB9F210BB3B40056249B /* Build configuration list for PBXNativeTarget "DrawPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF18FBA0210BB3B40056249B /* Debug */,
+				EF18FBA1210BB3B40056249B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF18FBA2210BB3B40056249B /* Build configuration list for PBXNativeTarget "DrawPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF18FBA3210BB3B40056249B /* Debug */,
+				EF18FBA4210BB3B40056249B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF18FBA5210BB3B40056249B /* Build configuration list for PBXNativeTarget "DrawPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF18FBA6210BB3B40056249B /* Debug */,
+				EF18FBA7210BB3B40056249B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF18FB6F210BB3B30056249B /* Project object */;
+}
