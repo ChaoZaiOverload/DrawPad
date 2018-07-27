@@ -25,7 +25,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    @IBAction func save() {
+        UIGraphicsBeginImageContext(view.frame.size)
+        if let context = UIGraphicsGetCurrentContext() {
+            self.view.layer.render(in: context)
+            if let img = UIGraphicsGetImageFromCurrentImageContext() {
+                UIImageWriteToSavedPhotosAlbum(img, nil, nil, nil)
+            }
+        }
+        UIGraphicsEndImageContext()
+        
+    }
     @IBAction func redo() {
         guard let removed = removedLines.last else { return }
         view.layer.addSublayer(removed)

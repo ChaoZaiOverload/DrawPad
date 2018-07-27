@@ -39,11 +39,18 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" id="oZm-Sj-DrH">
-                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="lZm-Oq-ZAE">
-                            <connections>
-                                <action selector="clear" destination="BYZ-38-t0r" id="vnp-kK-eik"/>
-                            </connections>
-                        </barButtonItem>
+                        <leftBarButtonItems>
+                            <barButtonItem systemItem="stop" id="lZm-Oq-ZAE">
+                                <connections>
+                                    <action selector="clear" destination="BYZ-38-t0r" id="vnp-kK-eik"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="save" id="M9w-w6-deM">
+                                <connections>
+                                    <action selector="save" destination="BYZ-38-t0r" id="Uoq-2y-4z7"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                         <rightBarButtonItems>
                             <barButtonItem systemItem="undo" id="95O-9w-ghx" userLabel="undo">
                                 <connections>
